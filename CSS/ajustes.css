@@ -1,0 +1,36 @@
+@media only screen and (max-width: 400px) { /* Idea adquirida de  https://www.regochan.com/varios/item/95-modificar-css-segun-el-tamano-de-la-pantalla-responsive.html */
+    .center-align h3{
+        background-color: #42a5f5;
+        margin-left: 27%;
+        margin-right: 27%;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .left-align h3{
+        background-color: #42a5f5;
+        margin-right: 35%;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .right-align h3{
+        background-color: #42a5f5;
+        margin-left: 35%;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-right: 30px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+
+
+}
+
+
+
