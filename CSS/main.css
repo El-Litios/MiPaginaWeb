@@ -1,0 +1,199 @@
+.nav-wrapper{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+}
+
+.nav-wrapper ul li a:hover{
+    background-color: white;
+    font-family: 'Staatliches', cursive;
+    color: black;
+}
+
+.nav-wrapper ul li a{
+    font-size: large;
+}
+
+.nav-wrapper a img{
+    padding-top: 15px;
+}
+
+
+
+.dropdown-content{
+    top: -64px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.dropdown-content li a{
+    color: white;
+    
+}
+
+.dropdown-content li a:hover{
+    color: grey;
+    background-color: white;
+}
+
+#dropdown1{
+    width: 600px !important;
+}
+
+#dropdown1 li a{
+    text-align: center;
+}
+
+#titleD1{
+    color: #607d8b;
+}
+
+#dropdown2{
+    width: 600px !important;
+}
+
+#dropdown2 li a{
+    text-align: center;
+}
+
+#titleD2{
+    color: #d50000;
+}
+
+#dropdown3{
+    width: 600px !important;
+}
+
+#dropdown3 li a{
+    text-align: center;
+}
+
+
+#titleD3{
+    color: #bdbdbd;
+}
+
+#Bcontact{
+    background-color: black;
+}
+
+#Bcontact:hover{
+    background-color: #3949ab;
+    color: white;
+    border-color: #d50000;
+}
+
+.center-align h3{
+    background-color: #42a5f5;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 4px;
+    font-family: 'Anton', sans-serif;
+}
+
+.center-align a{
+    background-color: transparent !important;
+}
+
+.center-align a:hover{
+    background-color: black !important;
+}
+
+.left-align h3{
+    background-color: #42a5f5;
+    margin-right: 65%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 4px;
+    font-family: 'Anton', sans-serif;
+}
+
+.left-align a{
+    background-color: transparent !important;
+}
+
+.left-align a:hover{
+    background-color: black !important;
+}
+
+.right-align h3{
+    background-color: #42a5f5;
+    margin-left: 65%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+    border-radius: 4px;
+    font-family: 'Anton', sans-serif;
+}
+
+.right-align a{
+    background-color: transparent !important;
+}
+
+.right-align a:hover{
+    background-color: black !important;
+}
+
+#rowContent1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#rowContent1 img:hover{
+    filter: brightness(70%);
+    border-radius: 4px;
+    transform: scale(1.05, 1.05);
+    transition: 0.3s 0.5s;
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 15px;
+    width: 25%;
+}
+
+.modal input{
+    color: white;
+    text-align: center;
+}
+
+.modal a{
+    background-color: white;
+    color: black;
+}
+
+.modal-footer a{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.modal-footer a:hover{
+    background-color: #42a5f5;
+    color: black;
+    border-radius: 4px;
+}
+
+.page-footer{
+    background-color: black;
+    color: white;
+}
+
+#ColFooter a{
+    color: white;
+}
+
+#ColFooter a:hover{
+    color: black;
+    background-color: white;
+}
+
+.page-footer h5{
+    font-family: 'Staatliches', cursive;
+}
