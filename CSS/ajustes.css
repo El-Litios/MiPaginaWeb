@@ -1,4 +1,5 @@
-@media only screen and (max-width: 400px) { /* Idea adquirida de  https://www.regochan.com/varios/item/95-modificar-css-segun-el-tamano-de-la-pantalla-responsive.html */
+/* Titulos de Slider 500px */
+@media only screen and (max-width: 510px) { /* Idea adquirida de  https://www.regochan.com/varios/item/95-modificar-css-segun-el-tamano-de-la-pantalla-responsive.html */
     .center-align h3{
         background-color: #42a5f5;
         margin-left: 27%;
@@ -8,28 +9,115 @@
         border-radius: 4px;
         font-family: 'Anton', sans-serif;
     }
-
+    
     .left-align h3{
         background-color: #42a5f5;
-        margin-right: 35%;
+        padding-right: 162px;
         padding-bottom: 15px;
         padding-top: 15px;
         padding-left: 15px;
         border-radius: 4px;
         font-family: 'Anton', sans-serif;
     }
-
+    
     .right-align h3{
         background-color: #42a5f5;
-        margin-left: 35%;
+        margin-left: 45%;
         padding-bottom: 15px;
         padding-top: 15px;
         padding-right: 30px;
         border-radius: 4px;
         font-family: 'Anton', sans-serif;
     }
+    
+}
+
+/* Titulos de Slider 501px a 599px */
+@media only screen and (min-width : 501px) and (max-width : 599px) {
+    .center-align h3{
+        background-color: #42a5f5;
+        margin-left: 27%;
+        margin-right: 27%;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .left-align h3{
+        background-color: #42a5f5;
+        padding-right: 169px !important;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .right-align h3{
+        background-color: #42a5f5;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        max-width: 350px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+}
+
+/* Titulos de Slider 600px a 700px */
+@media only screen and (min-width : 600px) and (max-width : 700px) {
+    .center-align h3{
+        background-color: #42a5f5;
+        margin-left: 27%;
+        margin-right: 27%;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .left-align h3{
+        background-color: #42a5f5;
+        padding-right: 162px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .right-align h3{
+        background-color: #42a5f5;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        max-width: 350px;
+        border-radius: 4px;
+        font-family: 'Anton', sans-serif;
+    }
+    
+}
 
 
+
+
+
+
+
+/* Titulo de Categorias en todos los tamaños*/
+@media only screen and (min-width : 1px) and (max-width : 1920px) {
+    #rowContent1 h3{
+        font-family: 'Anton', sans-serif;
+        font-size: 60px;
+        background-color: #42a5f5;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-radius: 20px;
+    }
 }
 
 
